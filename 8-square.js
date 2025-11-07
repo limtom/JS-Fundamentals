@@ -1,6 +1,5 @@
 const args = process.argv[2];
 
-console.log(args);
 if (parseInt(args)) {
   for (let i = 0; i < args; i++) {
     let row = "";
